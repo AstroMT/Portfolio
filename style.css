@@ -9,26 +9,28 @@ body {
     color: dimgrey;
     background-repeat: no-repeat;
     background-size: contain;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .menu {
     list-style: none;
     font-family: sans-serif;
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 30px;
+    color: white;
     z-index: 10;
     cursor: pointer;
 }
 
 li {
     float: left;
-    color: #fff;
+    color: white;
     padding-top: 5px;
     padding-left: 9px;
     padding-right: 9px;
     padding-bottom: 5px;
-    font-family: fantasy;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     transition-duration: 0.5s;
 }
@@ -70,9 +72,9 @@ pre {
 
 a {
     text-decoration: none;
-    color: bisque;
     padding-top: 5px;
     padding-left: 9px;
+    color: darkgrey;
     padding-right: 9px;
     padding-bottom: 5px;
     transition-duration: 0.5s;
@@ -111,10 +113,14 @@ button:hover {
     width: 70px;
     margin: 8px auto;
     border-radius: 5px;
+    margin-bottom: 25px;
 }
 
 p {
     font-size: 20px;
     font-family: 'Zilla Slab', serif;
+}
 
+#info {
+    color: lightgrey;
 }
